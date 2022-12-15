@@ -7,85 +7,85 @@
         <link rel="icon" href="assets/favicon.ico">
     </head>
 
-    <body>
+    <body class="main-container">
         <header>
             <div class="container">
             <nav class="nav">
-                <p>В curriculum vitae можно узнать:</p>
-                <a href="#contacts">Как связаться</a>
-                <a href="#edu">Где я училась</a>
-                <a href="#about">Обо мне</a>
-                <a href="#lang">Доступные языки</a>
-                <a href="#skills">Навыки</a>
-                <a href="#projects">Проекты</a>
-                <a href="#code">Пример кода</a>
-                <a href="#exp">Опыт работы</a>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Как связаться</a></li>
+                    <li class="nav-item"><a href="#edu" class="nav-link">Где я училась</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Обо мне</a></li>
+                    <li class="nav-item"><a href="#lang" class="nav-link">Языки</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Навыки</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Проекты</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Пример кода</a></li>
+                    <li class="nav-item"><a href="#exp" class="nav-link">Опыт работы</a></li>
+                </ul>
             </nav>
-            <h1>Екатерина Михайлова</h1>
-            <section>
-                <img src="assets/img/IMG_20221017_124428.jpg" alt="Екатерина Михайлова фото" width="177" height="186">
-            </section>
-            <section>
-                <h2 id="contacts">Контакты:</h2>
-                <p>Email: ekaterinavorobyova20@gmail.com</p>
-                <p>A1 :+375(44)7634006</p>
-                <p>GitHub: Lolitium</p>
-                <p>Discord: Екатерина Михайлова#5051</p>
-            </section>
             </div>
         </header>
 
-        <main>
+        <main class="main-container">
             <div class="container">
-            <section>
+            <section class="section" id="resume">
+                <h1>Екатерина Михайлова</h1>
+                <img src="assets/img/IMG_20221017_124428.jpg" alt="Екатерина Михайлова фото" width="177" height="186">
+            </section>
+            <section class="section" id="contact">
+                <h2 id="contacts">Контакты:</h2>
+                <p>Email: ekaterinavorobyova20@gmail.com</p>
+                <p>A1 :+375(44)7634006</p>
+                <p>Discord: Екатерина Михайлова#5051</p>
+            </section>
+            <section class="section" id="education">
                 <h2 id="edu">Образование:</h2>
                 <ul>
                     <li>БГУИР, ФИТиУ (ИТ и управление в ТС) - 2012 - 2016 (неоконченное высшее)</li>
                     <li>The Rolling Scopes School (JS/FE Pre-School 2022Q4) 2022 - наст. время</li>
                 </ul>
             </section>
-            <section>
+            <section class="section" id="about-me">
                 <h2 id="about">Обо мне:</h2>
                 <p>Люблю математику, книги, логические задачи, писать код, который будет работать (в итоге).</p>  
                 <p>В университете у меня был опыт программирования, но тогда оно не стало моей профессией.</p>
                 <p>Спустя 6 лет я начинаю фактически сначала, учитывая, что в моей работе я использовала максимум Microsoft Office и 1C:Бухгалтерия.</p> 
                 <p>Среди своих сильных качеств я бы выделила абстрактное мышление, аналитический склад ума, усидчивость и терпение при решении проблем.</p>
             </section>
-            <section>
+            <section class="section" id="languages">
                 <h2 id="lang">Языки:</h2>
                     <ul>
                         <li>Английский: А2+</li>
                     </ul> 
             </section>
-            <section>
+            <section class="section" id="skill">
                 <h2 id="skills">Навыки:</h2>
-                <table>
+                <table class="table">
                     <tr>
-                        <td>Java, C++, MySQL</td>
-                        <td>учебно-лабораторный опыт</td>
-                        <td rowspan="4">базовые теоретические знания</td>
+                        <td class="td">Java, C++, MySQL</td>
+                        <td class="td">учебно-лабораторный опыт</td>
+                        <td class="td" rowspan="4">базовые теоретические знания</td>
                     </tr>
                     <tr>
-                        <td>Python</td>
-                        <td>самообучение</td>
+                        <td class="td">Python</td>
+                        <td class="td">самообучение</td>
                     </tr>
                     <tr>
-                        <td>HTML, CSS</td>
-                        <td>в процессе</td>
+                        <td class="td">HTML, CSS</td>
+                        <td class="td">в процессе</td>
                     </tr>
                     <tr>
-                        <td>Git</td>
-                        <td>в процессе знакомства и пользования</td>
+                        <td class="td">Git</td>
+                        <td class="td">в процессе знакомства и пользования</td>
                     </tr>
                 </table>
             </section>
-            <section>
+            <section class="section" id="project">
                 <h2 id="projects">Проекты:</h2>
                     <ol>
                         <li><a href="https://github.com/Lolitium/rsschool-cv/tree/rsschool-cv-html">Текущий проект "CV"(github)</a></li>
                     </ol>
             </section>
-            <section>
+            <section class="section" id="coding">
                 <h2 id="code">Пример кода:</h2>
                     <pre>
                         <code>
@@ -106,24 +106,24 @@
                         </code>
                     </pre>
             </section>
-            <section>
+            <section class="section" id="expierence"> 
                 <h2 id="exp">Опыт работы:</h2>
                     <ul>
                         <li>Специалист по контенту, 2015г
                             <p>Интернет-магазин “24shop.by”</p></li>
                         <li>Специалист по отгрузочной документации, 2016 - 2020гг 
-                            <p>ОДО “ННД”, оптовая торговля</p>
-                            <p>Отдел Бухгалтерия: работа с электронным и бумажным документооборотом, отчетность.</p></li>
+                            <p>ОДО “ННД”, оптовая торговля.Отдел Бухгалтерия: работа с электронным и бумажным документооборотом, отчетность.</p></li>
                     </ul>
             </section>
             </div>
         </main>
-        <footer>
+        <footer class="main-container">
             <div class="container">
             <a href="https://github.com/Lolitium">Github account</a>
-            <p> hello from 2022 </p> 
-            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS SCHOOL" width="100" height="70"></a>
+            <span> hello from 2022 </span> 
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS SCHOOL" width="100" height="20"></a>
         </div>
+
         </footer>
 
 

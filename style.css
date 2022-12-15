@@ -6,7 +6,72 @@
     box-sizing: border-box;
 }
   body {
+    min-height: 100vh;
+    margin: 0; padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+.nav-link {
+    text-decoration: none;
+}
+.nav-list {
+    list-style: none;
+  }
+  .nav-link {
+    padding: 0 5px;
+    line-height: 20px;
+  }
+  .nav-link {
+    transition: .3s;
+  }
+  .section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #4d2323;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  .rss {
+    width: 1000px;
+    height: 5000px;
+    background-image: url("./assets/3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .table {
+    border: 2px solid grey;
+  }
+  .td {
+    border: 1px solid grey;
+    padding: 5px 10px;
+  }
