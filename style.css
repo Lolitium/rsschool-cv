@@ -1,1 +1,12 @@
-
+@font-face {
+    font-family: Merriweather;
+    src: url ("assets/fonts/Merriweather-Black.ttf");
+}
+* {
+    box-sizing: border-box;
+}
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
