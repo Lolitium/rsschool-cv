@@ -1,2 +1,2 @@
-# rsschool-cv
-https://Lolitium.github.io/rsschool-cv/cv
+<p>https://lolitium.github.io/rsschool-cv/cv</p>
+<p>https://lolitium.github.io/rsschool-cv</p>
