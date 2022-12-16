@@ -87,3 +87,7 @@ html {
 .exp-list {
     list-style-type: circle;
 }
+
+.contact-list {
+    list-style-type: none;
+}
