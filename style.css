@@ -71,3 +71,23 @@ html {
     border: 1px solid grey;
     padding: 5px 10px;
 }
+
+.edu-list {
+    list-style-type: circle;
+}
+
+.skill-list {
+    list-style-type: circle;
+}
+
+.lang-list {
+    list-style-type: circle;
+}
+
+.exp-list {
+    list-style-type: circle;
+}
+
+.contact-list {
+    list-style-type: none;
+}
